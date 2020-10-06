@@ -1,4 +1,5 @@
 #----------------------KFold------------------------
+from sklearn.model_selection import KFold
 def CrossValidation(x, y, public_inputs, private_inputs):
     k = 5
     kf = KFold(n_splits=k)
